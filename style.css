@@ -194,6 +194,11 @@ span.luv {
 }
 
 @media (max-width: 858px) {
+
+    .pfpmain {
+        margin-top: 200px;
+    }
+
     .checkbtn {
         display: block;
     }

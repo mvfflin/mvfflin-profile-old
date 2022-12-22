@@ -211,6 +211,10 @@ nav p {
 }
 
 @media (max-width: 858px) {
+    .mainpage {
+        margin: 200px 0px;
+    }
+
     .checkbtn {
         display: block;
     }

@@ -184,6 +184,10 @@ nav p {
 
 @media (max-width: 858px) {
 
+    .mainpage {
+        margin: 200px 0px;
+    }
+
     .spotify {
         width: 20em;
         height: 1000px;
