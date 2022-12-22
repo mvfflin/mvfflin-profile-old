@@ -93,7 +93,85 @@ nav p {
 
 /* end of headers */
 
-/* navbar responsive */
+/* main page */
+
+.mainpage {
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.title {
+    text-shadow: 5px 5px black;
+    font-family: "montserrat", sans-serif;
+    font-size: 50px;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    animation: fadeboomtitle 1s forwards;
+}
+
+.line {
+    font-family: "montserrat light", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px auto;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    animation: fadeboomline 1.5s forwards;
+}
+
+.spotify {
+    width: 500px;
+    height: 700px;
+    margin-bottom: 100px;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    animation: frombelow 1s forwards;
+}
+
+/* end of main page */
+
+/* animations */
+
+@keyframes frombelow {
+    from {
+        transform: translateY(900px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeboomtitle {
+    from {
+        font-size: 0px;
+        opacity: 0;
+    }
+    to {
+        font-size: 50px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeboomline {
+    from {
+        font-size: 0px;
+        opacity: 0;
+    }
+
+    to {
+        font-size: 20px;
+        opacity: 1;
+    }
+}
+/* end of animations */
+
+/* responsive */
 @media (max-width: 952px) {
     nav ul li a {
         font-size: 16px;
