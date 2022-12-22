@@ -130,10 +130,15 @@ nav p {
 .notready {
     width: 220px;
     margin: 0 auto;
-    font-family: "montserrat extralight", sans-serif;
+    font-family: "montserrat light", sans-serif;
     animation: slide-up 4s ease;
     color: white;
     text-align: center;
+}
+
+span.luv {
+    font-family: cursive;
+    font-weight: lighter;
 }
 
 /* end of main page */
