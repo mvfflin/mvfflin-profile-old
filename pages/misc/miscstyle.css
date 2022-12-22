@@ -10,6 +10,10 @@ body {
 
 /* headers */
 nav.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
     background-color: rgb(11, 11, 11);
     height: 110px;
     font-family: "Montserrat light";
@@ -97,7 +101,7 @@ nav p {
 
 .mainpage {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
     color: white;
 }
 
@@ -179,6 +183,12 @@ nav p {
 }
 
 @media (max-width: 858px) {
+
+    .spotify {
+        width: 20em;
+        height: 1000px;
+    }
+
     .checkbtn {
         display: block;
     }
