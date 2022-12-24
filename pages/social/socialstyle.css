@@ -215,8 +215,19 @@ nav p {
         margin: 200px 0px;
     }
 
+    #check:checked~.checkbtn {
+        font-size: 45px;
+    }
+    
+    .checkbtn:hover {
+        font-size: 45px;
+    }
+    
     .checkbtn {
         display: block;
+        transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
     }
 
     ul {
