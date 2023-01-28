@@ -1,6 +1,7 @@
 # mvfflin-profile
 my profile website, i'm from indonesia.
 still broken a bit cuz im not a professional programmer.
+this is a static website btw.
 
 ## authors
 * **mvfflin** - owner and programmer - *mvfflin#9046* - [@mvfflin](https://github.com/mvfflin)
