@@ -217,7 +217,7 @@ input {
 /* animations */
 @keyframes slide-left {
   0% {
-    transform: translateX(-100px);
+    transform: translateX(-80px);
     opacity: 0;
   }
   80% {
@@ -236,7 +236,7 @@ input {
 
 @keyframes slide-right {
   0% {
-    transform: translateX(100px);
+    transform: translateX(80px);
     opacity: 0;
   }
 
@@ -258,7 +258,7 @@ input {
 
 @keyframes fromabove {
   0% {
-    transform: translateY(-100px);
+    transform: translateY(-80px);
     opacity: 0;
   }
   100% {
