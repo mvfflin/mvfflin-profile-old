@@ -29,7 +29,7 @@ simple as that.
 ## authors
 
 - **mvfflin** - owner and programmer - _mvfflin#9046_ - [mvfflin](https://github.com/mvfflin)
-- **ynna** - helping me with some things - _ynna#4805_
+- **WillisRH** - helping me with some things (ty) - _ynna#4805_ - [@WillisRH](https://github.com/WillisRH)
 
 ## updates
 
@@ -37,8 +37,3 @@ i will still update this repository sometimes when i got a free time.
 
 u can see updates at the commits section.
 this is a static website btw.
-
-## authors
-
-- **mvfflin** - owner and programmer - _mvfflin#9046_ - [@mvfflin](https://github.com/mvfflin)
-- **WillisRH** - helping me with some things - _wls_rhtmn#4805_ - [@WillisRH](https://github.com/WillisRH)
